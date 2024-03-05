@@ -194,12 +194,35 @@ textarea {display: block;
     font-size: 24px;
     font-weight:500;
     text-align: center;
-    padding: 40px;
+    padding-bottom: 10px;
+    padding-top: 50px;
 }
 
 .bodas-text-subtitle {
     font-size: 14px;
     text-align: center;
-    padding: 0;
     font-weight: 200;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
+
+.segunda-imagen-bodas {
+    background-image: url(img/imagenbodas2.jpeg);
+    background-position: center;
+    height: 192px;
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-size: contain;  
+}
+
+.bodas-text-second-title,
+.bodas-text-p {
+    text-align: center;
+}
+
+.bodas-text-p {
+    padding-bottom: 50px;
+}
+
+
