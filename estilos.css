@@ -14,6 +14,7 @@ main {
 aside {
     height: 350px;
 }
+
 article {
     height: 200px;
 }
@@ -47,21 +48,28 @@ h2 {
     font-weight:300;
     padding: 20px;
     font-size: 23px;
+    position: relative;
+    width: 100%;
 }
 
 h3 {
     font-weight:200;
     padding: 20px;
     font-size: 12px;
+    position: relative;
+    width: 100%;
 }
 
 .about-text {
     padding: 20px;
     font-size: 14px;
+    position: relative;
+    width: 100%;
 }
 
 .nleft {
     padding: 20px;
+    position: relative;
 }
 
 .nright {
@@ -70,17 +78,19 @@ h3 {
     background-size: cover;
     height: 600px;
     padding: 20px !important;
+    position: relative;
 }
 
 .about-conraya {
     margin-top: 10px;
-    border-top: 1px solid #ccc; 
+    border-top: 1px solid #ccc;
     padding-top: 20px;
+    position: relative;
 }
 
 .footer {
     font-size: 12px;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }
@@ -142,17 +152,27 @@ textarea {display: block;
     padding-right: 20px; 
 }
 
-.formulario-contenedor {
-    width: 50%; 
+.formulario-contenedor,
+.textform {
+    width: 100%; 
     box-sizing: border-box; 
-    padding-left: 20px;
     margin-top: 20px;
+    padding: 20px;
+    position: relative;
 }
 
-.contactoImagen {
-    width: 50%; 
-    margin-right: 20px; 
-    float: left;
+
+.ileft {
+    background-image: url(img/contacto.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 20px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: none;
+
 }
 
 /* Page Bodas */
@@ -225,3 +245,10 @@ textarea {display: block;
     text-align: center;
     font-size: 14px;
 }
+
+.navbar-collapse {
+    z-index: 9999; 
+}
+
+
+
