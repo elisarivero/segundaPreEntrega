@@ -102,13 +102,6 @@ h3 {
 }
 
 
-/* de la pre-entrega anterior */
-
-main {
-    margin: 20px;
-    padding: 20px;
-    position: relative;
-}
 
 
 /* Iframe */
@@ -116,6 +109,7 @@ main {
 iframe {
     margin: auto;
     display: block;
+    padding: 20px;
 }
 
 /* Formulario SECCION CONTACTO */
@@ -275,10 +269,12 @@ textarea {display: block;
     padding-top: 50px;
     text-align: center;
     font-size: 14px;
+    margin: 150px;
+    margin-top: 0px;
 }
 
-.experiencia-text {
-    padding-bottom:80px;
+.experiencia-text-title {
+    margin-top: 20px;
 }
 
 
