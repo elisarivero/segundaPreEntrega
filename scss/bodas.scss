@@ -1,0 +1,61 @@
+h2 {
+    font-weight: 300;
+    padding: 20px;
+    font-size: 23px;
+    position: relative;
+    width: 100%;
+}
+
+.nup, .down {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+  
+.primera-imagen-bodas {
+    background-image: url(img/imagenbodas.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding: 20px !important;
+}
+  
+.bodas-text-second-title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+  
+.bodas-text-subtitle {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+  
+.bodas-text-second-title {
+    text-align: center;
+}
+  
+.bodas-text-p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+  
+.container-galeria-bodas {
+    padding-bottom: 50px;
+}
+
+.imagen-individual {
+    transition: transform 2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+}
+  
+
+  

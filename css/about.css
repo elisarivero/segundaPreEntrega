@@ -1,0 +1,39 @@
+h2 {
+  font-weight: 300;
+  padding: 20px;
+  font-size: 23px;
+  position: relative;
+  width: 100%;
+}
+
+.about-text {
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+
+.nleft {
+  padding: 20px;
+  position: relative;
+}
+
+.nright {
+  background-image: url(img/imagenabout2.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-conraya {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  position: relative;
+}
+
+/*# sourceMappingURL=about.css.map */

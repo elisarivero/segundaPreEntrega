@@ -1,0 +1,46 @@
+@mixin button-styles($bg-color, $text-color, $hover-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: $hover-color;
+    }
+}
+  
+header, div div {
+    height: 80px;
+}
+
+nav {
+    justify-content: center;
+    font-weight: 350px !important;
+    font-size: 12px;
+}
+
+.nav-item.active .nav-link {
+    font-weight: 220;
+}
+  
+.nav-link {
+    transition: font-size 0.8s ease-in-out;
+  
+    &:hover {
+      font-size: 0.95em;
+    }
+}
+
+.btn-primary {
+    @include button-styles(#6c757d, #ffffff, #495057);
+}
+  
+.btn-secondary {
+    @include button-styles(#6c757d, #ffffff, #495057);
+}
+
+
+
