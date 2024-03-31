@@ -9,8 +9,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="estilos.css" />
-    <title>Bootstrap</title>
+    <title>Contacto</title>
   </head>
   <body>
 
@@ -18,7 +19,7 @@
 
 <nav class="navbar navbar-expand-sm bg-light navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+    <a class="navbar-brand animate__animated animate__pulse animate__delay-0,2s" href="index.html"><img src="img/logo.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,7 +37,7 @@
         <li class="nav-item">
           <a class="nav-link" href="experiencia.html">EXPERIENCIA</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contacto.html">CONTACTO</a>
         </li>  
       </ul>
@@ -46,49 +47,45 @@
 
    <!-- Barra de navegación finaliza -->
 
-   <main>
+
+   
+    <div class="imagen-portada-contacto animate__animated animate__fadeIn animate__delay-0,98s">
+    </div>
+
+    <h5 class="contacto-text-title animate__animated animate__fadeIn animate__delay-0,99s">CONSULTA DISPONIBILIDAD PARA LA FECHA DE TU BODA</h5>
+    <p class="contacto-text-p animate__animated animate__fadeIn animate__delay-0,99s">SAVE YOUR DATE!</p>
+      
 
     <div class="container-fluid">
       <div class="row">
-        <div class="textform col-sm-6">
+        <div class="col g-3 mt-3">
           <div class="formulario-contenedor">
+
             <form>
-              <label for="Nombre (obligatorio)"> Nombre (obligatorio) </label>
+              <label for="Nombre (obligatorio)" class="form-label"> Nombre (obligatorio) </label>
               <input type="text" id="Nombre (obligatorio)"> 
     
-              <label for="Email (obligatorio)"> Email (obligatorio) </label>
+              <label for="Email (obligatorio)" class="form-label"> Email (obligatorio) </label>
               <input type="text" id="Email (obligatorio)">
     
-              <label for="Teléfono"> Teléfono </label>
+              <label for="Teléfono" class="form-label"> Teléfono </label>
               <input type="text" id="Teléfono">
     
-              <label for="Fecha de la boda"> Fecha de la boda </label>
+              <label for="Fecha de la boda" class="form-label"> Fecha de la boda </label>
               <input type="text" id="Fecha de la boda">
     
-              <label for="¿Qué están planificando? (obligatorio)"> ¿Qué están planificando? (obligatorio) </label>
+              <label for="¿Qué están planificando? (obligatorio)" class="form-label"> ¿Qué están planificando? (obligatorio) </label>
               <textarea name="¿Qué están planificando? (obligatorio)" id="¿Qué están planificando? (obligatorio)" rows="10" placeholder="Deje su mensaje"></textarea>
     
-              <input class="btnFormulario" type="submit">
+              <div class="col-12">
+                <input class="btn btnFormulario btn-enviar" type="submit">
+              </div>             
             </form>
-          </div>
-          <div class="ileft col-sm-6">
-          </div>
-        </div>
+          </div>     
       </div>
     </div>
   
-    <div class="texto-contenedor">
-        <h1>CONSULTA DISPONIBILIDAD PARA LA FECHA DE TU BODA</h1>
-        <h2>SAVE YOUR DATE!</h2>
-    </div>
 
-    <div class="formulario-contenedor">
-        
-    </div>
-
-</main>
-
-</div>
 
 <footer class="footer" style="background-color: white;">
   <div class="text-center text-dark p-3" style="background-color: white;">
